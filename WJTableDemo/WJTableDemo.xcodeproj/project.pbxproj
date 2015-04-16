@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD9EFEBE1ADFBCE800806234 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9EFEBD1ADFBCE800806234 /* main.m */; };
+		CD9EFEC11ADFBCE800806234 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9EFEC01ADFBCE800806234 /* AppDelegate.m */; };
+		CD9EFEC41ADFBCE800806234 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9EFEC31ADFBCE800806234 /* ViewController.m */; };
+		CD9EFEC71ADFBCE800806234 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9EFEC51ADFBCE800806234 /* Main.storyboard */; };
+		CD9EFEC91ADFBCE800806234 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9EFEC81ADFBCE800806234 /* Images.xcassets */; };
+		CD9EFECC1ADFBCE800806234 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD9EFECA1ADFBCE800806234 /* LaunchScreen.xib */; };
+		CD9EFED81ADFBCE800806234 /* WJTableDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9EFED71ADFBCE800806234 /* WJTableDemoTests.m */; };
+		CD9EFEF71ADFBD4500806234 /* UIColor+WJ.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9EFEE31ADFBD4500806234 /* UIColor+WJ.m */; };
+		CD9EFEF81ADFBD4500806234 /* UILabel+WJ.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9EFEE51ADFBD4500806234 /* UILabel+WJ.m */; };
+		CD9EFEF91ADFBD4500806234 /* UINavigationBar+WJ.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9EFEE71ADFBD4500806234 /* UINavigationBar+WJ.m */; };
+		CD9EFEFA1ADFBD4500806234 /* UITableViewCell+WJ.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9EFEE91ADFBD4500806234 /* UITableViewCell+WJ.m */; };
+		CD9EFEFB1ADFBD4500806234 /* UIView+WJ.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9EFEEB1ADFBD4500806234 /* UIView+WJ.m */; };
+		CD9EFEFC1ADFBD4500806234 /* WJLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9EFEED1ADFBD4500806234 /* WJLabel.m */; };
+		CD9EFEFD1ADFBD4500806234 /* WJTableViewBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9EFEF01ADFBD4500806234 /* WJTableViewBaseController.m */; };
+		CD9EFEFE1ADFBD4500806234 /* WJTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9EFEF21ADFBD4500806234 /* WJTableViewCell.m */; };
+		CD9EFEFF1ADFBD4500806234 /* WJTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9EFEF41ADFBD4500806234 /* WJTableViewController.m */; };
+		CD9EFF001ADFBD4500806234 /* WJTableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9EFEF61ADFBD4500806234 /* WJTableViewSection.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD9EFED21ADFBCE800806234 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD9EFEB01ADFBCE800806234 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD9EFEB71ADFBCE800806234;
+			remoteInfo = WJTableDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD9EFEB81ADFBCE800806234 /* WJTableDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJTableDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9EFEBC1ADFBCE800806234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9EFEBD1ADFBCE800806234 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD9EFEBF1ADFBCE800806234 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD9EFEC01ADFBCE800806234 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD9EFEC21ADFBCE800806234 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD9EFEC31ADFBCE800806234 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD9EFEC61ADFBCE800806234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD9EFEC81ADFBCE800806234 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD9EFECB1ADFBCE800806234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CD9EFED11ADFBCE800806234 /* WJTableDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJTableDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9EFED61ADFBCE800806234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9EFED71ADFBCE800806234 /* WJTableDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJTableDemoTests.m; sourceTree = "<group>"; };
+		CD9EFEE21ADFBD4500806234 /* UIColor+WJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WJ.h"; sourceTree = "<group>"; };
+		CD9EFEE31ADFBD4500806234 /* UIColor+WJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WJ.m"; sourceTree = "<group>"; };
+		CD9EFEE41ADFBD4500806234 /* UILabel+WJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+WJ.h"; sourceTree = "<group>"; };
+		CD9EFEE51ADFBD4500806234 /* UILabel+WJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+WJ.m"; sourceTree = "<group>"; };
+		CD9EFEE61ADFBD4500806234 /* UINavigationBar+WJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+WJ.h"; sourceTree = "<group>"; };
+		CD9EFEE71ADFBD4500806234 /* UINavigationBar+WJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+WJ.m"; sourceTree = "<group>"; };
+		CD9EFEE81ADFBD4500806234 /* UITableViewCell+WJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+WJ.h"; sourceTree = "<group>"; };
+		CD9EFEE91ADFBD4500806234 /* UITableViewCell+WJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+WJ.m"; sourceTree = "<group>"; };
+		CD9EFEEA1ADFBD4500806234 /* UIView+WJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WJ.h"; sourceTree = "<group>"; };
+		CD9EFEEB1ADFBD4500806234 /* UIView+WJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WJ.m"; sourceTree = "<group>"; };
+		CD9EFEEC1ADFBD4500806234 /* WJLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJLabel.h; sourceTree = "<group>"; };
+		CD9EFEED1ADFBD4500806234 /* WJLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJLabel.m; sourceTree = "<group>"; };
+		CD9EFEEE1ADFBD4500806234 /* WJTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJTable.h; sourceTree = "<group>"; };
+		CD9EFEEF1ADFBD4500806234 /* WJTableViewBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJTableViewBaseController.h; sourceTree = "<group>"; };
+		CD9EFEF01ADFBD4500806234 /* WJTableViewBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJTableViewBaseController.m; sourceTree = "<group>"; };
+		CD9EFEF11ADFBD4500806234 /* WJTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJTableViewCell.h; sourceTree = "<group>"; };
+		CD9EFEF21ADFBD4500806234 /* WJTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJTableViewCell.m; sourceTree = "<group>"; };
+		CD9EFEF31ADFBD4500806234 /* WJTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJTableViewController.h; sourceTree = "<group>"; };
+		CD9EFEF41ADFBD4500806234 /* WJTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJTableViewController.m; sourceTree = "<group>"; };
+		CD9EFEF51ADFBD4500806234 /* WJTableViewSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJTableViewSection.h; sourceTree = "<group>"; };
+		CD9EFEF61ADFBD4500806234 /* WJTableViewSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJTableViewSection.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD9EFEB51ADFBCE800806234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9EFECE1ADFBCE800806234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD9EFEAF1ADFBCE800806234 = {
+			isa = PBXGroup;
+			children = (
+				CD9EFEBA1ADFBCE800806234 /* WJTableDemo */,
+				CD9EFED41ADFBCE800806234 /* WJTableDemoTests */,
+				CD9EFEB91ADFBCE800806234 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD9EFEB91ADFBCE800806234 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD9EFEB81ADFBCE800806234 /* WJTableDemo.app */,
+				CD9EFED11ADFBCE800806234 /* WJTableDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD9EFEBA1ADFBCE800806234 /* WJTableDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CD9EFEE11ADFBD4500806234 /* WJTable */,
+				CD9EFEBF1ADFBCE800806234 /* AppDelegate.h */,
+				CD9EFEC01ADFBCE800806234 /* AppDelegate.m */,
+				CD9EFEC21ADFBCE800806234 /* ViewController.h */,
+				CD9EFEC31ADFBCE800806234 /* ViewController.m */,
+				CD9EFEC51ADFBCE800806234 /* Main.storyboard */,
+				CD9EFEC81ADFBCE800806234 /* Images.xcassets */,
+				CD9EFECA1ADFBCE800806234 /* LaunchScreen.xib */,
+				CD9EFEBB1ADFBCE800806234 /* Supporting Files */,
+			);
+			path = WJTableDemo;
+			sourceTree = "<group>";
+		};
+		CD9EFEBB1ADFBCE800806234 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD9EFEBC1ADFBCE800806234 /* Info.plist */,
+				CD9EFEBD1ADFBCE800806234 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD9EFED41ADFBCE800806234 /* WJTableDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD9EFED71ADFBCE800806234 /* WJTableDemoTests.m */,
+				CD9EFED51ADFBCE800806234 /* Supporting Files */,
+			);
+			path = WJTableDemoTests;
+			sourceTree = "<group>";
+		};
+		CD9EFED51ADFBCE800806234 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD9EFED61ADFBCE800806234 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD9EFEE11ADFBD4500806234 /* WJTable */ = {
+			isa = PBXGroup;
+			children = (
+				CD9EFEE21ADFBD4500806234 /* UIColor+WJ.h */,
+				CD9EFEE31ADFBD4500806234 /* UIColor+WJ.m */,
+				CD9EFEE41ADFBD4500806234 /* UILabel+WJ.h */,
+				CD9EFEE51ADFBD4500806234 /* UILabel+WJ.m */,
+				CD9EFEE61ADFBD4500806234 /* UINavigationBar+WJ.h */,
+				CD9EFEE71ADFBD4500806234 /* UINavigationBar+WJ.m */,
+				CD9EFEE81ADFBD4500806234 /* UITableViewCell+WJ.h */,
+				CD9EFEE91ADFBD4500806234 /* UITableViewCell+WJ.m */,
+				CD9EFEEA1ADFBD4500806234 /* UIView+WJ.h */,
+				CD9EFEEB1ADFBD4500806234 /* UIView+WJ.m */,
+				CD9EFEEC1ADFBD4500806234 /* WJLabel.h */,
+				CD9EFEED1ADFBD4500806234 /* WJLabel.m */,
+				CD9EFEEE1ADFBD4500806234 /* WJTable.h */,
+				CD9EFEEF1ADFBD4500806234 /* WJTableViewBaseController.h */,
+				CD9EFEF01ADFBD4500806234 /* WJTableViewBaseController.m */,
+				CD9EFEF11ADFBD4500806234 /* WJTableViewCell.h */,
+				CD9EFEF21ADFBD4500806234 /* WJTableViewCell.m */,
+				CD9EFEF31ADFBD4500806234 /* WJTableViewController.h */,
+				CD9EFEF41ADFBD4500806234 /* WJTableViewController.m */,
+				CD9EFEF51ADFBD4500806234 /* WJTableViewSection.h */,
+				CD9EFEF61ADFBD4500806234 /* WJTableViewSection.m */,
+			);
+			name = WJTable;
+			path = ../../WJTable;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD9EFEB71ADFBCE800806234 /* WJTableDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9EFEDB1ADFBCE800806234 /* Build configuration list for PBXNativeTarget "WJTableDemo" */;
+			buildPhases = (
+				CD9EFEB41ADFBCE800806234 /* Sources */,
+				CD9EFEB51ADFBCE800806234 /* Frameworks */,
+				CD9EFEB61ADFBCE800806234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WJTableDemo;
+			productName = WJTableDemo;
+			productReference = CD9EFEB81ADFBCE800806234 /* WJTableDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD9EFED01ADFBCE800806234 /* WJTableDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9EFEDE1ADFBCE800806234 /* Build configuration list for PBXNativeTarget "WJTableDemoTests" */;
+			buildPhases = (
+				CD9EFECD1ADFBCE800806234 /* Sources */,
+				CD9EFECE1ADFBCE800806234 /* Frameworks */,
+				CD9EFECF1ADFBCE800806234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD9EFED31ADFBCE800806234 /* PBXTargetDependency */,
+			);
+			name = WJTableDemoTests;
+			productName = WJTableDemoTests;
+			productReference = CD9EFED11ADFBCE800806234 /* WJTableDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD9EFEB01ADFBCE800806234 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = WhoJun;
+				TargetAttributes = {
+					CD9EFEB71ADFBCE800806234 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					CD9EFED01ADFBCE800806234 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = CD9EFEB71ADFBCE800806234;
+					};
+				};
+			};
+			buildConfigurationList = CD9EFEB31ADFBCE800806234 /* Build configuration list for PBXProject "WJTableDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD9EFEAF1ADFBCE800806234;
+			productRefGroup = CD9EFEB91ADFBCE800806234 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD9EFEB71ADFBCE800806234 /* WJTableDemo */,
+				CD9EFED01ADFBCE800806234 /* WJTableDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD9EFEB61ADFBCE800806234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9EFEC71ADFBCE800806234 /* Main.storyboard in Resources */,
+				CD9EFECC1ADFBCE800806234 /* LaunchScreen.xib in Resources */,
+				CD9EFEC91ADFBCE800806234 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9EFECF1ADFBCE800806234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD9EFEB41ADFBCE800806234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9EFEFE1ADFBD4500806234 /* WJTableViewCell.m in Sources */,
+				CD9EFEF71ADFBD4500806234 /* UIColor+WJ.m in Sources */,
+				CD9EFEC41ADFBCE800806234 /* ViewController.m in Sources */,
+				CD9EFEF81ADFBD4500806234 /* UILabel+WJ.m in Sources */,
+				CD9EFEFB1ADFBD4500806234 /* UIView+WJ.m in Sources */,
+				CD9EFEC11ADFBCE800806234 /* AppDelegate.m in Sources */,
+				CD9EFF001ADFBD4500806234 /* WJTableViewSection.m in Sources */,
+				CD9EFEFF1ADFBD4500806234 /* WJTableViewController.m in Sources */,
+				CD9EFEFD1ADFBD4500806234 /* WJTableViewBaseController.m in Sources */,
+				CD9EFEF91ADFBD4500806234 /* UINavigationBar+WJ.m in Sources */,
+				CD9EFEBE1ADFBCE800806234 /* main.m in Sources */,
+				CD9EFEFC1ADFBD4500806234 /* WJLabel.m in Sources */,
+				CD9EFEFA1ADFBD4500806234 /* UITableViewCell+WJ.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9EFECD1ADFBCE800806234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9EFED81ADFBCE800806234 /* WJTableDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD9EFED31ADFBCE800806234 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD9EFEB71ADFBCE800806234 /* WJTableDemo */;
+			targetProxy = CD9EFED21ADFBCE800806234 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD9EFEC51ADFBCE800806234 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD9EFEC61ADFBCE800806234 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD9EFECA1ADFBCE800806234 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD9EFECB1ADFBCE800806234 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD9EFED91ADFBCE800806234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD9EFEDA1ADFBCE800806234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD9EFEDC1ADFBCE800806234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WJTableDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD9EFEDD1ADFBCE800806234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WJTableDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD9EFEDF1ADFBCE800806234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WJTableDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJTableDemo.app/WJTableDemo";
+			};
+			name = Debug;
+		};
+		CD9EFEE01ADFBCE800806234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WJTableDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJTableDemo.app/WJTableDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD9EFEB31ADFBCE800806234 /* Build configuration list for PBXProject "WJTableDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9EFED91ADFBCE800806234 /* Debug */,
+				CD9EFEDA1ADFBCE800806234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9EFEDB1ADFBCE800806234 /* Build configuration list for PBXNativeTarget "WJTableDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9EFEDC1ADFBCE800806234 /* Debug */,
+				CD9EFEDD1ADFBCE800806234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD9EFEDE1ADFBCE800806234 /* Build configuration list for PBXNativeTarget "WJTableDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9EFEDF1ADFBCE800806234 /* Debug */,
+				CD9EFEE01ADFBCE800806234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD9EFEB01ADFBCE800806234 /* Project object */;
+}
