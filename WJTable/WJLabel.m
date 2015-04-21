@@ -34,27 +34,27 @@
 
 - (void)setText:(NSString *)text {
     [super setText:text];
-    NSMutableAttributedString *textS = [[NSMutableAttributedString alloc] init];
-//    NSMutableAttributedString *textAtt = [[NSMutableAttributedString alloc]init];
-//    NSTextAttachment *att = [[NSTextAttachment alloc]init];
-////    att.
+//    NSMutableAttributedString *textS = [[NSMutableAttributedString alloc] init];
+////    NSMutableAttributedString *textAtt = [[NSMutableAttributedString alloc]init];
+////    NSTextAttachment *att = [[NSTextAttachment alloc]init];
+//////    att.
+////
+////    self.attributedText = textAtt;
+//    
+//    NSRange rangeT = NSMakeRange(0, text.length);//正文截取
+//    NSRange rangeS;
+//    
+//    while((rangeS = [text rangeOfRegex:@"\\[[a-zA-Z0-9\\u4e00-\\u9fa5]+\\]" inRange:rangeT]).length) {
+//        NSString *str = [text substringWithRange:rangeS];
+//        [textS appendAttributedString:[[NSAttributedString alloc]initWithString:[text substringWithRange:NSMakeRange(rangeT.location, rangeS.location + rangeS.length)]]];//添加到正文
+//        //判断是否有图片
+//        if ([[[self class] emotionsKeys] containsObject:str]) {
+//            NSTextAttachment *text = [[NSTextAttachment alloc]init];
+////            NSString *[[[self class] emotions]objectForKey:str];
+//        }
 //
-//    self.attributedText = textAtt;
-    
-    NSRange rangeT = NSMakeRange(0, text.length);//正文截取
-    NSRange rangeS;
-    
-    while((rangeS = [text rangeOfRegex:@"\\[[a-zA-Z0-9\\u4e00-\\u9fa5]+\\]" inRange:rangeT]).length) {
-        NSString *str = [text substringWithRange:rangeS];
-        [textS appendAttributedString:[[NSAttributedString alloc]initWithString:[text substringWithRange:NSMakeRange(rangeT.location, rangeS.location + rangeS.length)]]];//添加到正文
-        //判断是否有图片
-        if ([[[self class] emotionsKeys] containsObject:str]) {
-            NSTextAttachment *text = [[NSTextAttachment alloc]init];
-//            NSString *[[[self class] emotions]objectForKey:str];
-        }
-
-    }
-    self.attributedText = textS;
+//    }
+//    self.attributedText = textS;
 }
 
 
