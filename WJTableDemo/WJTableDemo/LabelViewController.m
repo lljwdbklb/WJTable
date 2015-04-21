@@ -9,7 +9,7 @@
 #import "LabelViewController.h"
 
 #import "WJLabel.h"
-#import "RegexKitLite.h"
+//#import "RegexKitLite.h"
 
 @interface LabelViewController ()
 
@@ -28,8 +28,8 @@
     [self.view addSubview:label];
     NSString * str = @"xxxxxxxxxxx@dasdfl xxxxx#asdfsadf#xxxxx";
 //    NSArray *array = [str componentsSeparatedByRegex:@"@\\w+"];
-    NSRange range = [str rangeOfRegex:@"#\\w+#"];
-    NSString *strR = [str substringWithRange:range];
+//    NSRange range = [str rangeOfRegex:@"#\\w+#"];
+//    NSString *strR = [str substringWithRange:range];
 //    NSLog(@"%@",array);
     [label setText:str];
     
