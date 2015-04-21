@@ -1,12 +1,14 @@
 //
 //  AppDelegate.h
-//  WJTableDemo
+//  WJTable
 //
-//  Created by Maxson-001 on 15/4/16.
+//  Created by Maxson-001 on 15/3/27.
 //  Copyright (c) 2015年 WhoJun. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+
+//#include "KeyboardManager.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

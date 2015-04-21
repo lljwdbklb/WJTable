@@ -24,6 +24,20 @@
 		CD9EFEFE1ADFBD4500806234 /* WJTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9EFEF21ADFBD4500806234 /* WJTableViewCell.m */; };
 		CD9EFEFF1ADFBD4500806234 /* WJTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9EFEF41ADFBD4500806234 /* WJTableViewController.m */; };
 		CD9EFF001ADFBD4500806234 /* WJTableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9EFEF61ADFBD4500806234 /* WJTableViewSection.m */; };
+		CDE522C01AE62D4F00CAB1D3 /* 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDE522BC1AE62D4F00CAB1D3 /* 1@2x.png */; };
+		CDE522C11AE62D4F00CAB1D3 /* 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDE522BD1AE62D4F00CAB1D3 /* 2@2x.png */; };
+		CDE522C21AE62D4F00CAB1D3 /* 3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDE522BE1AE62D4F00CAB1D3 /* 3@2x.png */; };
+		CDE522C31AE62D4F00CAB1D3 /* default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDE522BF1AE62D4F00CAB1D3 /* default@2x.png */; };
+		CDE522CE1AE62D9300CAB1D3 /* AnimationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE522CB1AE62D9300CAB1D3 /* AnimationCell.m */; };
+		CDE522CF1AE62D9300CAB1D3 /* AnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE522CD1AE62D9300CAB1D3 /* AnimationController.m */; };
+		CDE522D51AE62DA800CAB1D3 /* NewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE522D21AE62DA800CAB1D3 /* NewController.m */; };
+		CDE522D61AE62DA800CAB1D3 /* ScrollCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE522D41AE62DA800CAB1D3 /* ScrollCell.m */; };
+		CDE522E01AE62DBD00CAB1D3 /* WeiboBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE522D91AE62DBD00CAB1D3 /* WeiboBaseView.m */; };
+		CDE522E11AE62DBD00CAB1D3 /* WeiboCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE522DB1AE62DBD00CAB1D3 /* WeiboCell.m */; };
+		CDE522E21AE62DBD00CAB1D3 /* WeiboContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE522DD1AE62DBD00CAB1D3 /* WeiboContentView.m */; };
+		CDE522E31AE62DBD00CAB1D3 /* WeiboController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE522DF1AE62DBD00CAB1D3 /* WeiboController.m */; };
+		CDE522E71AE62DDF00CAB1D3 /* LabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE522E61AE62DDF00CAB1D3 /* LabelViewController.m */; };
+		CDE522EB1AE62DF700CAB1D3 /* CustomController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE522EA1AE62DF700CAB1D3 /* CustomController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +85,30 @@
 		CD9EFEF41ADFBD4500806234 /* WJTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJTableViewController.m; sourceTree = "<group>"; };
 		CD9EFEF51ADFBD4500806234 /* WJTableViewSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJTableViewSection.h; sourceTree = "<group>"; };
 		CD9EFEF61ADFBD4500806234 /* WJTableViewSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJTableViewSection.m; sourceTree = "<group>"; };
+		CDE522BC1AE62D4F00CAB1D3 /* 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1@2x.png"; sourceTree = "<group>"; };
+		CDE522BD1AE62D4F00CAB1D3 /* 2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2@2x.png"; sourceTree = "<group>"; };
+		CDE522BE1AE62D4F00CAB1D3 /* 3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3@2x.png"; sourceTree = "<group>"; };
+		CDE522BF1AE62D4F00CAB1D3 /* default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default@2x.png"; sourceTree = "<group>"; };
+		CDE522CA1AE62D9300CAB1D3 /* AnimationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationCell.h; sourceTree = "<group>"; };
+		CDE522CB1AE62D9300CAB1D3 /* AnimationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationCell.m; sourceTree = "<group>"; };
+		CDE522CC1AE62D9300CAB1D3 /* AnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationController.h; sourceTree = "<group>"; };
+		CDE522CD1AE62D9300CAB1D3 /* AnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationController.m; sourceTree = "<group>"; };
+		CDE522D11AE62DA800CAB1D3 /* NewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewController.h; sourceTree = "<group>"; };
+		CDE522D21AE62DA800CAB1D3 /* NewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewController.m; sourceTree = "<group>"; };
+		CDE522D31AE62DA800CAB1D3 /* ScrollCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollCell.h; sourceTree = "<group>"; };
+		CDE522D41AE62DA800CAB1D3 /* ScrollCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollCell.m; sourceTree = "<group>"; };
+		CDE522D81AE62DBD00CAB1D3 /* WeiboBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboBaseView.h; sourceTree = "<group>"; };
+		CDE522D91AE62DBD00CAB1D3 /* WeiboBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiboBaseView.m; sourceTree = "<group>"; };
+		CDE522DA1AE62DBD00CAB1D3 /* WeiboCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboCell.h; sourceTree = "<group>"; };
+		CDE522DB1AE62DBD00CAB1D3 /* WeiboCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiboCell.m; sourceTree = "<group>"; };
+		CDE522DC1AE62DBD00CAB1D3 /* WeiboContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboContentView.h; sourceTree = "<group>"; };
+		CDE522DD1AE62DBD00CAB1D3 /* WeiboContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiboContentView.m; sourceTree = "<group>"; };
+		CDE522DE1AE62DBD00CAB1D3 /* WeiboController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboController.h; sourceTree = "<group>"; };
+		CDE522DF1AE62DBD00CAB1D3 /* WeiboController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiboController.m; sourceTree = "<group>"; };
+		CDE522E51AE62DDF00CAB1D3 /* LabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelViewController.h; sourceTree = "<group>"; };
+		CDE522E61AE62DDF00CAB1D3 /* LabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelViewController.m; sourceTree = "<group>"; };
+		CDE522E91AE62DF700CAB1D3 /* CustomController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomController.h; sourceTree = "<group>"; };
+		CDE522EA1AE62DF700CAB1D3 /* CustomController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +155,11 @@
 				CD9EFEC01ADFBCE800806234 /* AppDelegate.m */,
 				CD9EFEC21ADFBCE800806234 /* ViewController.h */,
 				CD9EFEC31ADFBCE800806234 /* ViewController.m */,
+				CDE522EC1AE62DFB00CAB1D3 /* Cust */,
+				CDE522E81AE62DE300CAB1D3 /* Label */,
+				CDE522E41AE62DC200CAB1D3 /* Weibo */,
+				CDE522D71AE62DAD00CAB1D3 /* News */,
+				CDE522D01AE62D9700CAB1D3 /* Animation */,
 				CD9EFEC51ADFBCE800806234 /* Main.storyboard */,
 				CD9EFEC81ADFBCE800806234 /* Images.xcassets */,
 				CD9EFECA1ADFBCE800806234 /* LaunchScreen.xib */,
@@ -128,6 +171,10 @@
 		CD9EFEBB1ADFBCE800806234 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CDE522BC1AE62D4F00CAB1D3 /* 1@2x.png */,
+				CDE522BD1AE62D4F00CAB1D3 /* 2@2x.png */,
+				CDE522BE1AE62D4F00CAB1D3 /* 3@2x.png */,
+				CDE522BF1AE62D4F00CAB1D3 /* default@2x.png */,
 				CD9EFEBC1ADFBCE800806234 /* Info.plist */,
 				CD9EFEBD1ADFBCE800806234 /* main.m */,
 			);
@@ -178,6 +225,61 @@
 			);
 			name = WJTable;
 			path = ../../WJTable;
+			sourceTree = "<group>";
+		};
+		CDE522D01AE62D9700CAB1D3 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				CDE522CA1AE62D9300CAB1D3 /* AnimationCell.h */,
+				CDE522CB1AE62D9300CAB1D3 /* AnimationCell.m */,
+				CDE522CC1AE62D9300CAB1D3 /* AnimationController.h */,
+				CDE522CD1AE62D9300CAB1D3 /* AnimationController.m */,
+			);
+			name = Animation;
+			sourceTree = "<group>";
+		};
+		CDE522D71AE62DAD00CAB1D3 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				CDE522D11AE62DA800CAB1D3 /* NewController.h */,
+				CDE522D21AE62DA800CAB1D3 /* NewController.m */,
+				CDE522D31AE62DA800CAB1D3 /* ScrollCell.h */,
+				CDE522D41AE62DA800CAB1D3 /* ScrollCell.m */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+		CDE522E41AE62DC200CAB1D3 /* Weibo */ = {
+			isa = PBXGroup;
+			children = (
+				CDE522D81AE62DBD00CAB1D3 /* WeiboBaseView.h */,
+				CDE522D91AE62DBD00CAB1D3 /* WeiboBaseView.m */,
+				CDE522DA1AE62DBD00CAB1D3 /* WeiboCell.h */,
+				CDE522DB1AE62DBD00CAB1D3 /* WeiboCell.m */,
+				CDE522DC1AE62DBD00CAB1D3 /* WeiboContentView.h */,
+				CDE522DD1AE62DBD00CAB1D3 /* WeiboContentView.m */,
+				CDE522DE1AE62DBD00CAB1D3 /* WeiboController.h */,
+				CDE522DF1AE62DBD00CAB1D3 /* WeiboController.m */,
+			);
+			name = Weibo;
+			sourceTree = "<group>";
+		};
+		CDE522E81AE62DE300CAB1D3 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				CDE522E51AE62DDF00CAB1D3 /* LabelViewController.h */,
+				CDE522E61AE62DDF00CAB1D3 /* LabelViewController.m */,
+			);
+			name = Label;
+			sourceTree = "<group>";
+		};
+		CDE522EC1AE62DFB00CAB1D3 /* Cust */ = {
+			isa = PBXGroup;
+			children = (
+				CDE522E91AE62DF700CAB1D3 /* CustomController.h */,
+				CDE522EA1AE62DF700CAB1D3 /* CustomController.m */,
+			);
+			name = Cust;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,9 +362,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDE522C21AE62D4F00CAB1D3 /* 3@2x.png in Resources */,
 				CD9EFEC71ADFBCE800806234 /* Main.storyboard in Resources */,
 				CD9EFECC1ADFBCE800806234 /* LaunchScreen.xib in Resources */,
+				CDE522C11AE62D4F00CAB1D3 /* 2@2x.png in Resources */,
+				CDE522C01AE62D4F00CAB1D3 /* 1@2x.png in Resources */,
 				CD9EFEC91ADFBCE800806234 /* Images.xcassets in Resources */,
+				CDE522C31AE62D4F00CAB1D3 /* default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,17 +386,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDE522CE1AE62D9300CAB1D3 /* AnimationCell.m in Sources */,
+				CDE522CF1AE62D9300CAB1D3 /* AnimationController.m in Sources */,
+				CDE522D61AE62DA800CAB1D3 /* ScrollCell.m in Sources */,
 				CD9EFEFE1ADFBD4500806234 /* WJTableViewCell.m in Sources */,
 				CD9EFEF71ADFBD4500806234 /* UIColor+WJ.m in Sources */,
+				CDE522E21AE62DBD00CAB1D3 /* WeiboContentView.m in Sources */,
 				CD9EFEC41ADFBCE800806234 /* ViewController.m in Sources */,
 				CD9EFEF81ADFBD4500806234 /* UILabel+WJ.m in Sources */,
+				CDE522E31AE62DBD00CAB1D3 /* WeiboController.m in Sources */,
 				CD9EFEFB1ADFBD4500806234 /* UIView+WJ.m in Sources */,
 				CD9EFEC11ADFBCE800806234 /* AppDelegate.m in Sources */,
+				CDE522D51AE62DA800CAB1D3 /* NewController.m in Sources */,
+				CDE522EB1AE62DF700CAB1D3 /* CustomController.m in Sources */,
 				CD9EFF001ADFBD4500806234 /* WJTableViewSection.m in Sources */,
 				CD9EFEFF1ADFBD4500806234 /* WJTableViewController.m in Sources */,
 				CD9EFEFD1ADFBD4500806234 /* WJTableViewBaseController.m in Sources */,
 				CD9EFEF91ADFBD4500806234 /* UINavigationBar+WJ.m in Sources */,
+				CDE522E01AE62DBD00CAB1D3 /* WeiboBaseView.m in Sources */,
+				CDE522E11AE62DBD00CAB1D3 /* WeiboCell.m in Sources */,
 				CD9EFEBE1ADFBCE800806234 /* main.m in Sources */,
+				CDE522E71AE62DDF00CAB1D3 /* LabelViewController.m in Sources */,
 				CD9EFEFC1ADFBD4500806234 /* WJLabel.m in Sources */,
 				CD9EFEFA1ADFBD4500806234 /* UITableViewCell+WJ.m in Sources */,
 			);
@@ -487,6 +603,7 @@
 				CD9EFEDD1ADFBCE800806234 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD9EFEDE1ADFBCE800806234 /* Build configuration list for PBXNativeTarget "WJTableDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +612,7 @@
 				CD9EFEE01ADFBCE800806234 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
