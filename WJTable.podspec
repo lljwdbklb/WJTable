@@ -2,12 +2,12 @@ Pod::Spec.new do |s|
   s.name             = "WJTable"  
   s.version          = "0.0.1"  
   s.summary          = "一个简单实现tableview的demo"  
-  s.description      = <<-DESC  
-                       It is a marquee view used on iOS, which implement by Objective-C.  
-                       DESC  
+  # s.description      = ""  
+  #                     It is a marquee view used on iOS, which implement by Objective-C.  
+  #                     DESC  
   s.homepage         = "https://github.com/lljwdbklb/WJTable"  
   s.license          = 'MIT'  
-  s.author           = { "WhoJun" => "lljwdbklb@163.com" }  
+  s.author           = { "Who Jun" => "lljwdbklb@163.com" }  
   s.source           = { :git => "https://github.com/lljwdbklb/WJTable.git", :tag => s.version.to_s }  
   
   s.platform     = :ios, '7.0'  
