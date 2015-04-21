@@ -29,7 +29,7 @@
 //                }
 //            }];
 //        }
-        [self.text sizeWithFont:nil];
+//        [self.text sizeWithFont:nil];
 //        CGSize size = [self.text sizeWithAttributes:@{NSFontAttributeName:self.font}];
         CGSize s = [[self class] sizeToLayoutFits:size text:self.text attrs:@{NSFontAttributeName:self.font}];
 //#ifdef __IPHONE_7_0
