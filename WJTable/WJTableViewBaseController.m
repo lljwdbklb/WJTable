@@ -22,7 +22,7 @@
         UITableView *tableView = [[UITableView alloc]init];
         [tableView setDelegate:self];
         [tableView setDataSource:self];
-        [tableView setFrame:[UIScreen mainScreen].applicationFrame];
+        [tableView setFrame:self.view.bounds];
         [self.view addSubview:tableView];
         self.tableView = tableView;
     }

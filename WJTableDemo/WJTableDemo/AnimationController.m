@@ -43,7 +43,7 @@
 
     for (int i = 0; i < array.count * 2; i++) {
         UIColor *color = array[i % array.count];
-        id p = @{@"bgcolor":color};
+        id p = @{@"bgc":color};
         [aM addObject:p];
     }
     

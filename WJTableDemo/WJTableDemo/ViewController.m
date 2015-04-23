@@ -30,11 +30,11 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     WJTableViewSection *section = [[WJTableViewSection alloc]initWithCellClass:nil stroyboard:NO];
-    [section setRowOfDatas:@[@{@"title":@"自定义Cell",@"detail":@"自定义开发tableView"},
-                             @{@"title":@"新闻Cell",@"detail":@"常用新闻tableView"},
-                             @{@"title":@"特效Cell",@"detail":@"特效tableView"},
-                             @{@"title":@"微博形式Cell",@"detail":@"微博形式tableView"},
-                             @{@"title":@"Label Test",@"detail":@"Label Test"}
+    [section setRowOfDatas:@[@{@"t":@"自定义Cell"      ,@"d":@"自定义开发tableView"},
+                             @{@"t":@"新闻Cell"       ,@"d":@"常用新闻tableView"},
+                             @{@"t":@"特效Cell"       ,@"d":@"特效tableView"},
+                             @{@"t":@"微博形式Cell"     ,@"d":@"微博形式tableView"},
+                             @{@"t":@"Label Test"   ,@"d":@"Label Test"}
                              ]];
     
     
@@ -54,7 +54,7 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     UIViewController *viewController = segue.destinationViewController;
-    [viewController setTitle:sender[@"title"]];
+    [viewController setTitle:sender[@"t"]];
 }
 
 @end

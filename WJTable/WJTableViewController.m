@@ -29,6 +29,11 @@
     
 }
 
+- (void)setSections:(NSArray *)sections {
+    _sections = sections;
+    [self.tableView reloadData];
+}
+
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     if(self.sections) {

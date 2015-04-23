@@ -16,8 +16,8 @@
 
 - (void)setData:(id)data {
     _data = data;
-    NSString *title = [data objectForKey:@"title"];
-    NSString *detail = [data objectForKey:@"detail"];
+    NSString *title = [data objectForKey:@"t"];
+    NSString *detail = [data objectForKey:@"d"];
     
     if (title) {
         self.textLabel.text = title;
@@ -28,17 +28,17 @@
     }
     
     
-    UIImage *image = [_data objectForKey:@"image"];
+    UIImage *image = [_data objectForKey:@"i"];
     if (image) {
         [self.imageView setImage:image];
     } else {
-        NSString *imageStr = [_data objectForKey:@"imagestr"];
+        NSString *imageStr = [_data objectForKey:@"iS"];
         if (imageStr) {
             [self.imageView setImage:[UIImage imageNamed:imageStr]];
         }
     }
     
-    UIColor *bgColor = [_data objectForKey:@"bgcolor"];
+    UIColor *bgColor = [_data objectForKey:@"bgc"];
     if (bgColor && [bgColor isKindOfClass:[UIColor class]]) {
         self.backgroundColor = bgColor;
     }

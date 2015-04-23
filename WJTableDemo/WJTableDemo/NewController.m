@@ -47,7 +47,7 @@
     
     NSMutableArray *array = [NSMutableArray array];
     for (int i = 0; i < 15; i++) {
-        id data = @{@"title":[NSString stringWithFormat:@"hehe%d",i],@"detail":@"AA啊",@"image":images[i%3]};
+        id data = @{@"t":[NSString stringWithFormat:@"hehe%d",i],@"d":@"AA啊",@"i":images[i%3]};
         [array addObject:data];
     }
     
@@ -57,7 +57,7 @@
     self.sections = @[header,content];
     self.selectCellForRow = ^(UITableView* tableView,WJTableViewSection *section, id data, NSIndexPath *indexPath){
         if (indexPath.section) {
-            UIAlertView *alert = [[UIAlertView alloc]initWithTitle:data[@"title"] message:data[@"detail"] delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
+            UIAlertView *alert = [[UIAlertView alloc]initWithTitle:data[@"t"] message:data[@"d"] delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
             [alert show];
         }
     };

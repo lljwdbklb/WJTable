@@ -10,7 +10,7 @@
 #import "UITableViewCell+WJ.h"
 
 @interface WJTableViewCell : UITableViewCell
-@property (strong,nonatomic) id data;//基本数据 {image:"",title:"",detail:"",bgcolor:UIColor}
+@property (strong,nonatomic) id data;//基本数据 {i:"",t:"",d:"",bgc:UIColor}
 + (CGFloat)cellForHeightAtData:(id)data;//默认44
 - (void)showScreen;//显示在屏幕
 - (void)hideScreen;//消失在屏幕

@@ -15,7 +15,7 @@
 @implementation WeiboBaseView
 - (void)setData:(id)data {
     _data = data;
-    [self.userNameLabel setText:data[@"t"]];
+    [self.userNameLabel setText:data[@"title"]];
     CGFloat wx = [UIScreen mainScreen].applicationFrame.size.width - 10 - 40 - 10 - 10 - 22 - 10;
     [self.userNameLabel sizeToLayoutFits:CGSizeMake(wx, 0) type:WJLabelLayoutWidth];
     [self.contentLabel setText:data[@"c"]];
