@@ -50,7 +50,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     if (self.sections) {
         WJTableViewSection *s = [self.sections objectAtIndex:section];
-        return s.rowOfDatas.count;
+        return s.rowOfDatas.count?s.rowOfDatas.count:(s.cellClass)?1:0;
     } else {
         if (self.numForRow) {
             return self.numForRow(section);
@@ -64,7 +64,12 @@
     if (self.sections) {
         WJTableViewSection *s = [self.sections objectAtIndex:indexPath.section];
         if (s.isStroyboard) {
-            cell = [tableView dequeueReusableCellWithIdentifier:s.cellIdentifier forIndexPath:indexPath];
+            if (s.rowOfDatas.count) {
+                cell = [tableView dequeueReusableCellWithIdentifier:s.cellIdentifier forIndexPath:indexPath];
+            } else {
+                cell = [tableView dequeueReusableCellWithIdentifier:s.noDataCellIdentifier forIndexPath:indexPath];
+            }
+            
         } else {
             cell = [tableView dequeueReusableCellWithIdentifier:s.cellIdentifier];
             if (!cell) {
@@ -73,6 +78,10 @@
         }
 //        [cell setData:[s.rowOfDatas objectAtIndex:indexPath.row]];
         [self setupCell:cell withIndexPath:indexPath];
+        
+        if (s.cellForRowOpeation) {
+            s.cellForRowOpeation(tableView,s,cell,indexPath);
+        }
     } else {
         cell = self.cellForRow(tableView,indexPath);
         
@@ -84,7 +93,14 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     if (self.sections) {
         WJTableViewSection *s = [self.sections objectAtIndex:indexPath.section];
-        CGFloat height =[s.cellClass cellForHeightAtData:[s.rowOfDatas objectAtIndex:indexPath.row]] + 1/*分割线*/;
+        CGFloat height = 0;
+        
+        if (s.rowOfDatas.count) {
+            height = [s.cellClass cellForHeightAtData:[s.rowOfDatas objectAtIndex:indexPath.row]] + 1/*分割线*/;
+        } else {
+            height = [s.noDataCellClass cellForHeightAtData:nil];
+        }
+        
         return height;
     } else if(self.cellForRowHeight) {
         return self.cellForRowHeight(tableView, indexPath) + 1/*分割线*/;
@@ -98,7 +114,9 @@
     id data = nil;
     if (self.sections) {
         s = [self.sections objectAtIndex:indexPath.section];
-        data = [s.rowOfDatas objectAtIndex:indexPath.row];
+        if (s.rowOfDatas.count) {
+            data = [s.rowOfDatas objectAtIndex:indexPath.row];
+        }
     }
     if (self.selectCellForRow) {
         self.selectCellForRow(tableView,s,data,indexPath);
@@ -136,15 +154,17 @@
     if (!self.sections) return;//目前只有模块化数据能使用
     
     WJTableViewSection *s = [self.sections objectAtIndex:indexPath.section];
-    id data = [s.rowOfDatas objectAtIndex:indexPath.row];
-    if (data&&[cell isLoad:data]) {
-        [cell setData:[s.rowOfDatas objectAtIndex:indexPath.row]];
-        
-        CGRect cellFrame = [self.tableView rectForRowAtIndexPath:indexPath];
-        if (self.targetRect && !CGRectIntersectsRect([self.targetRect CGRectValue], cellFrame)) {
-            [cell loadCoreData];
-        } else {
-            [cell LoadCacheData];
+    if (s.rowOfDatas.count) {
+        id data = [s.rowOfDatas objectAtIndex:indexPath.row];
+        if (data&&[cell isLoad:data]) {
+            [cell setData:[s.rowOfDatas objectAtIndex:indexPath.row]];
+            
+            CGRect cellFrame = [self.tableView rectForRowAtIndexPath:indexPath];
+            if (self.targetRect && !CGRectIntersectsRect([self.targetRect CGRectValue], cellFrame)) {
+                [cell loadCoreData];
+            } else {
+                [cell LoadCacheData];
+            }
         }
     }
     

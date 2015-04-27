@@ -35,6 +35,11 @@
     _cellIdentifier = NSStringFromClass(cellClass);
 }
 
+- (void)setNoDataCellClass:(Class)noDataCellClass {
+    _noDataCellClass = noDataCellClass;
+    _noDataCellIdentifier = NSStringFromClass(noDataCellClass);
+}
+
 - (void)dealloc {
     NSLog(@"WJ section dealloc");
     self.rowOfDatas = nil;
